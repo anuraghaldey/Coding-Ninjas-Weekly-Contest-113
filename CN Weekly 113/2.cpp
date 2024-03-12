@@ -82,7 +82,7 @@ long long(-10^18 to 10^18)RANGE
 (a-b)%M=((a%M)-(b%M)+M)%M
 (a/b)%M=((a%M)*(b^-1)%M)%M
 */
-#ifdef ANURAG
+#ifdef JAI PARSHURAM🙏
 #define debug(x)                                                               \
     cerr << #x << ": ";                                                        \
     _print(x);                                                                 \
@@ -208,13 +208,11 @@ long long diagonalSum(int n, int d) {
     if (d > n) {
         int y = d - n;
         for (int i = 0; i < n - y; i++) {
-            sum += a;
-            a++;
+            sum += a++;
         }
     } else {
         for (int i = 0; i < d; i++) {
-            sum += a;
-            a++;
+            sum += a++;
         }
     }
 
@@ -231,7 +229,7 @@ void solve() {
 signed main() {
     fastio();
 
-#ifdef Anurag5623
+#ifdef JAI PARSHURAM🙏
     freopen("Error.txt", "w", stderr);
 #endif
     int t = 1;

@@ -67,7 +67,7 @@ long long(-10^18 to 10^18)RANGE
 (a-b)%M=((a%M)-(b%M)+M)%M
 (a/b)%M=((a%M)*(b^-1)%M)%M
 */
-#ifdef ANURAG
+#ifdef JAI PARSHURAM🙏
 #define debug(x)                                                               \
     cerr << #x << ": ";                                                        \
     _print(x);                                                                 \
@@ -231,7 +231,7 @@ void solve() {
 signed main() {
     fastio();
 
-#ifdef Anurag5623
+#ifdef JAI PARSHURAM🙏
     freopen("Error.txt", "w", stderr);
 #endif
     int t = 1;
